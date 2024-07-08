@@ -1,0 +1,86 @@
+.institutes,
+.theNumberOf {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.institutes {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.theNumberOf {
+  font-size: 24px;
+}
+.frameChild {
+  width: 389px;
+  height: 97px;
+  max-width: 100%;
+}
+.institutesParent {
+  position: absolute;
+  height: 81.25%;
+  width: 100%;
+  top: 18.75%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 35px;
+  background-color: rgba(195, 148, 51, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 80px 16px 47px 35px;
+  box-sizing: border-box;
+  gap: 25px;
+  max-width: 100%;
+}
+.vectorIcon {
+  width: 63.8px;
+  height: 89.3px;
+  position: relative;
+}
+.vectorWrapper {
+  position: absolute;
+  height: 32.08%;
+  width: 36.19%;
+  top: 0;
+  right: 63.81%;
+  bottom: 67.92%;
+  left: 0;
+  border-radius: 35px;
+  background-color: #272c2e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.property1variant3 {
+  height: 480px;
+  flex: 1;
+  position: relative;
+  min-width: 350px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 48px;
+  color: #d2f1db;
+  font-family: Inter;
+}
+@media screen and (max-width: 1050px) {
+  .institutes {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .institutes {
+    font-size: 29px;
+  }
+  .theNumberOf {
+    font-size: 19px;
+  }
+  .property1variant3 {
+    min-width: 100%;
+  }
+}

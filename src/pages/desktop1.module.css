@@ -1,0 +1,493 @@
+.bgIcon,
+.wrapperBg {
+  position: absolute;
+  height: 100%;
+}
+.bgIcon {
+  width: 100%;
+  object-fit: contain;
+  left: 0;
+  top: 12px;
+  transform: scale(1.035);
+}
+.wrapperBg {
+  top: 0;
+  bottom: 0;
+  left: -91px;
+  max-height: 100%;
+  width: 1779px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.medImgIcon {
+  position: absolute;
+  top: 119px;
+  left: 27px;
+  width: 403px;
+  height: 403px;
+  object-fit: cover;
+  z-index: 2;
+}
+.wrapperBgParent {
+  width: 100%;
+  height: 692px;
+  position: absolute;
+  margin: 0 !important;
+  top: 134px;
+  right: 0;
+  left: 0;
+}
+.download2Icon {
+  width: 237px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.logoContainer {
+  height: 59px;
+  width: 422px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.download1Icon,
+.image1Icon {
+  align-self: stretch;
+  position: relative;
+  object-fit: cover;
+}
+.image1Icon {
+  width: 55px;
+  max-height: 100%;
+  min-height: 62px;
+}
+.download1Icon {
+  height: 46.6px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logoContainer2 {
+  width: 181.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+  box-sizing: border-box;
+}
+.azadiKaAmritMahotsavHindiIcon {
+  height: 47.8px;
+  width: 68.7px;
+  position: relative;
+  object-fit: cover;
+}
+.g20Logoc086cdd59e99dff909adIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logoContainer1,
+.logoRow {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.logoRow {
+  width: 92.5px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+  box-sizing: border-box;
+}
+.logoContainer1 {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.navContainer,
+.navOptions,
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navOptions {
+  height: 55px;
+  width: 443.5px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+  box-sizing: border-box;
+}
+.navContainer,
+.navigation {
+  flex-direction: row;
+}
+.navContainer {
+  flex: 1;
+  background: linear-gradient(
+    90.04deg,
+    rgba(195, 148, 51, 0.8) 63.44%,
+    rgba(93, 71, 24, 0.8)
+  );
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 9px 68px 9px 35px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+.navigation {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.spacer {
+  margin-right: -5.3px;
+  margin-bottom: 20px;
+  width: 1729.8px;
+  height: 38px;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.accountLogin,
+.username {
+  position: relative;
+  font-family: Inter;
+  color: #000;
+}
+.accountLogin {
+  margin: 0;
+  align-self: stretch;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+}
+.username {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+  min-width: 118px;
+}
+.usernameFieldContainer {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.4px 14px 0.3px;
+  flex-shrink: 0;
+}
+.usernameContainerChild {
+  border: 2px solid #000;
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 69.7px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.accountLoginContainer,
+.usernameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.usernameContainer {
+  align-self: stretch;
+}
+.accountLoginContainer {
+  width: 528px;
+  gap: 24px;
+  max-width: 100%;
+}
+.captcha {
+  position: relative;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  min-width: 97px;
+}
+.captchaWrapper {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 13px;
+}
+.inputLabelsContainerChild {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 68px;
+  position: relative;
+}
+.inputLabelsContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputFieldsContainerChild {
+  align-self: stretch;
+  height: 68px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.forgotPassword {
+  flex: 1;
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.forgotPasswordWrapper,
+.inputFieldsContainer,
+.login {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.forgotPasswordWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 41px;
+  box-sizing: border-box;
+}
+.inputFieldsContainer,
+.login {
+  flex-direction: column;
+}
+.inputFieldsContainer {
+  width: 528px;
+  align-items: flex-start;
+  gap: 24px;
+}
+.login {
+  margin: 0;
+  flex: 1;
+  border-radius: 40px;
+  background-color: #fff;
+  overflow: hidden;
+  align-items: center;
+  padding: 38.5px 20px;
+  box-sizing: border-box;
+  gap: 52.3px;
+  min-width: 495px;
+  z-index: 1;
+}
+.links1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.linksWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 3px;
+}
+.linksContainer,
+.linksContainer1,
+.linksContainer2,
+.linksContainer3 {
+  align-self: stretch;
+  height: 45px;
+}
+.links,
+.loginFormContainer {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.links {
+  width: 337px;
+  border-radius: 40px;
+  background-color: #fff;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 21px 26px 117px 30px;
+  box-sizing: border-box;
+  gap: 63px;
+  min-width: 337px;
+  z-index: 1;
+}
+.loginFormContainer {
+  width: 1224px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 125px;
+}
+.loginFormContainerWrapper {
+  width: 1422px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 48px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 48px;
+  color: #000;
+  font-family: Inter;
+}
+.frameChild,
+.rectangleWrapper {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frameChild {
+  flex: 1;
+  position: relative;
+  background-color: #272c2e;
+}
+.rectangleWrapper {
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 32px;
+  box-sizing: border-box;
+}
+.desktop4,
+.footerColumnsParent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.footerColumnsParent {
+  align-self: stretch;
+  background: linear-gradient(179.98deg, #4d616b, #af8c3d);
+  padding: 0 0 42.5px;
+  box-sizing: border-box;
+  gap: 6px;
+  max-width: 100%;
+}
+.desktop4 {
+  width: 100%;
+  position: relative;
+  background-color: #272c2e;
+  gap: 8px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .medImgIcon {
+    display: none;
+  }
+  .loginFormContainer {
+    gap: 62px;
+  }
+  .footerColumnsParent {
+    padding-bottom: 28px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .navContainer {
+    padding-right: 34px;
+    box-sizing: border-box;
+  }
+  .accountLogin,
+  .links1 {
+    font-size: 38px;
+  }
+  .links {
+    flex: 1;
+  }
+  .loginFormContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .links,
+  .login {
+    box-sizing: border-box;
+  }
+  .login {
+    gap: 26px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    min-width: 100%;
+  }
+  .links {
+    padding-top: 20px;
+    padding-bottom: 76px;
+  }
+  .loginFormContainer {
+    gap: 31px;
+  }
+  .footerColumnsParent,
+  .loginFormContainerWrapper {
+    padding-bottom: 31px;
+    box-sizing: border-box;
+  }
+  .footerColumnsParent {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .accountLogin {
+    font-size: 29px;
+  }
+  .captcha,
+  .username {
+    font-size: 19px;
+  }
+  .inputFieldsContainerChild {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .links1 {
+    font-size: 29px;
+  }
+  .links {
+    gap: 31px;
+    min-width: 100%;
+  }
+  .loginFormContainer {
+    gap: 16px;
+  }
+}

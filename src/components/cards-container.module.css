@@ -1,0 +1,226 @@
+.manuals,
+.state {
+  position: relative;
+}
+.manuals {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 98px;
+}
+.state {
+  align-self: stretch;
+  text-align: left;
+}
+.district,
+.institute {
+  position: relative;
+  display: inline-block;
+}
+.district {
+  text-align: left;
+  min-width: 81px;
+}
+.institute {
+  align-self: stretch;
+  min-width: 98px;
+}
+.manualsParent {
+  position: absolute;
+  top: 35px;
+  left: 440px;
+  width: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 27px;
+}
+.support {
+  font-weight: 600;
+}
+.contactUs,
+.support,
+.supportPortal {
+  align-self: stretch;
+  position: relative;
+}
+.appStoreContainer {
+  position: absolute;
+  top: 35px;
+  left: 639px;
+  width: 217px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  text-align: left;
+}
+.cibappStoreIosIcon,
+.mageplaystoreIcon {
+  height: 110px;
+  width: 110px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mageplaystoreIcon {
+  left: 181px;
+}
+.downloadSandesApp {
+  height: 35px;
+  width: 315px;
+  position: absolute;
+  margin: 0 !important;
+  top: 134px;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.appDownload {
+  position: absolute;
+  top: 26px;
+  left: 883px;
+  width: 315px;
+  height: 169px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 71px;
+}
+.download21 {
+  width: 145px;
+  height: 138px;
+  position: relative;
+  object-fit: cover;
+}
+.sandesServices {
+  align-self: stretch;
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
+}
+.enabledApplication,
+.governmentInstantMessaging {
+  margin: 0;
+}
+.governmentInstantMessagingContainer {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.allRightsReserved,
+.p {
+  margin: 0;
+}
+.allRightsReservedContainer {
+  position: relative;
+  font-weight: 600;
+}
+.copyright {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 858px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18.3px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 18px;
+}
+.footerRows {
+  height: 312px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.footerRowsWrapper {
+  width: 1264px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 33px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.websiteDesignedAnd {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.footerContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 45px;
+  max-width: 100%;
+}
+.nicPreview15082f03c0847e7ffIcon {
+  height: 72.5px;
+  width: 227px;
+  position: relative;
+  object-fit: cover;
+}
+.preview {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.cardsContainer,
+.footerItems {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footerItems {
+  width: 1360px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 35px;
+}
+.cardsContainer {
+  width: 1654px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 750px) {
+  .footerContent {
+    gap: 23px;
+  }
+  .footerItems {
+    gap: 17px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactUs,
+  .district,
+  .downloadSandesApp,
+  .institute,
+  .manuals,
+  .sandesServices,
+  .state,
+  .support,
+  .supportPortal,
+  .websiteDesignedAnd {
+    font-size: 19px;
+  }
+}
