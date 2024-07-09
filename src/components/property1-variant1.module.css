@@ -2,25 +2,36 @@
 .theNumberOf {
   align-self: stretch;
   position: relative;
-  font-weight: 600;
+
+
+
 }
 .institutes {
   margin: 0;
   font-size: inherit;
   font-family: inherit;
+  font-size: 24px;
+  font-weight: 600;
+  color: #D2F1D3;
+  
 }
 .theNumberOf {
-  font-size: 24px;
+  font-size: 12px;
+  font-weight: 400;
+   color: #D2F1D3;
 }
 .frameChild {
-  width: 389px;
-  height: 97px;
+  width: 150px;
+  height: 50px;
   max-width: 100%;
+  align-self: center;
+  font-size: 32px;
+  
 }
 .institutesParent {
   position: absolute;
-  height: 81.25%;
-  width: 100%;
+  height:52.5%;
+  width: 60%;
   top: 18.75%;
   right: 0;
   bottom: 0;
@@ -31,21 +42,21 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 80px 16px 47px 35px;
+  padding: 60px 16px 47px 25px;
   box-sizing: border-box;
-  gap: 25px;
+  gap: 10px;
   max-width: 100%;
 }
 .vectorIcon {
-  width: 63.8px;
-  height: 89.3px;
+  width: 45px;
+  height: 75px;
   position: relative;
 }
 .vectorWrapper {
   position: absolute;
-  height: 32.08%;
-  width: 36.19%;
-  top: 0;
+  height: 25%;
+  width: 25%;
+  top: 55;
   right: 63.81%;
   bottom: 67.92%;
   left: 0;
@@ -58,7 +69,7 @@
   z-index: 1;
 }
 .property1variant3 {
-  height: 480px;
+  height: 380px;
   flex: 1;
   position: relative;
   min-width: 350px;
@@ -68,6 +79,8 @@
   color: #d2f1db;
   font-family: Inter;
 }
+
+
 @media screen and (max-width: 1050px) {
   .institutes {
     font-size: 38px;
@@ -84,3 +97,5 @@
     min-width: 100%;
   }
 }
+
+

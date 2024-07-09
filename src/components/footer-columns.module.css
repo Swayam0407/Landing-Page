@@ -1,20 +1,22 @@
 .cards,
 .footerColumns {
   display: flex;
+  
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
   max-width: 100%;
 }
 .cards {
   width: 1481px;
   border-radius: 5px;
-  border: 1px dashed #9747ff;
-  overflow: hidden;
   flex-shrink: 0;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: flex-start;
+
   padding: 20px;
+  padding-left: 50px;
   gap: 20px;
 }
 .footerColumns {
@@ -25,4 +27,25 @@
   font-size: 48px;
   color: #d2f1db;
   font-family: Inter;
+}
+
+/* Add styles for vector rotation */
+.property1variant3 {
+  position: relative;
+  overflow: hidden;
+}
+
+.property1variant3:hover .vectorIcon {
+  transform: rotate(360deg);
+  transition: transform 5s ease;
+}
+
+
+@media (max-width: 850px) {
+  .cards {
+    flex-direction: column; 
+    align-items: center; 
+    gap: 300px;
+
+  }
 }

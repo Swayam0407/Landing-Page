@@ -1,4 +1,5 @@
-import { TextField, InputAdornment, Icon, IconButton } from "@mui/material";
+import React from "react";
+import { TextField } from "@mui/material";
 import PropTypes from "prop-types";
 import styles from "./password-captcha-input.module.css";
 

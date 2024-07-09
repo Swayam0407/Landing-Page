@@ -1,8 +1,6 @@
+import React from "react";
 import {
   TextField,
-  InputAdornment,
-  Icon,
-  IconButton,
   Button,
 } from "@mui/material";
 import PasswordCaptchaInput from "../components/password-captcha-input";
@@ -105,7 +103,6 @@ const Desktop1 = () => {
                 sx={{
                   textTransform: "none",
                   color: "#fff",
-                  fontSize: "44",
                   background: "#c39433",
                   borderRadius: "15px",
                   fontSize: "42px",

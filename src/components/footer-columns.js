@@ -1,3 +1,4 @@
+import React from "react";
 import Property1Variant1 from "./property1-variant1";
 import PropTypes from "prop-types";
 import styles from "./footer-columns.module.css";
@@ -21,6 +22,12 @@ const FooterColumns = ({ className = "" }) => {
           theNumberOfInstitutesWhoH="The number of institutes who have trusted us."
           vector="/vector-1.svg"
         />
+        <Property1Variant1
+          institutes="Cities"
+          theNumberOfInstitutesWhoH="The number of cities who have trusted us."
+          vector="/vector6.svg"
+        />
+
       </div>
     </div>
   );
